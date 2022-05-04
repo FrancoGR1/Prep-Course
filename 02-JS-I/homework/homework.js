@@ -103,14 +103,20 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  if (num==par) {
+    return true;
+  }
+    return false;
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  if (num==impar) {
+    return true;
+  }
+    return false;
 }
 
 function elevarAlCuadrado(num) {
