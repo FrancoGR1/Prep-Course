@@ -80,6 +80,7 @@ function menosQueNoventa(num) {
   if ( num < 90 ) {
     return true;
   }
+   return false;
 }
 
 function mayorQueCincuenta(num) {
@@ -89,6 +90,7 @@ function mayorQueCincuenta(num) {
   if ( 50 < num ) {
     return true;
   }
+    return false;
 }
 
 function obtenerResto(x, y) {
