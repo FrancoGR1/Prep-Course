@@ -103,7 +103,7 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num==par) {
+  if (num==espar) {
     return true;
   }
     return false;
@@ -113,7 +113,7 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num==impar) {
+  if (num==esimpar) {
     return true;
   }
     return false;
