@@ -25,15 +25,7 @@ function conection(status) {
   //Cuando el estado es igual a 2, el usuario está "Away"
   //De lo contrario, presumimos que el usuario está "Offline"
   //Devolver el estado de conexión de usuario en cada uno de los casos.
-  if (status = 1) {
-    console.log ("Online");
-  } else (status = 2) {
-      console.log ("Away");
-  } else (status = 0) {
-          console.log ("Offline");
-  } else (status > 2) {
-            console.log ("Offline");
-  }
+  
 }
 
 function saludo(idioma) {
@@ -43,6 +35,15 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
+  if (idioma= aleman) {
+    console.log ("Guten Tag!");
+  } if (idioma= mandarin ) {
+      console.log ("Ni Hao!");
+  } if (idioma= ingles) {
+        console.log ("Hello!");
+  } if (idioma!= aleman && idioma != mandarin && idoma != ingles) {
+          console.log ("Hola!");
+  }
 }
 
 function colors(color) {
