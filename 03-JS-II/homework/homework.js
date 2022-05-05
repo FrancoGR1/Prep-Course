@@ -35,7 +35,7 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
-  if (idioma= aleman) {
+  If (idioma= aleman) {
     console.log ("Guten Tag!");
   } if (idioma= mandarin ) {
       console.log ("Ni Hao!");
