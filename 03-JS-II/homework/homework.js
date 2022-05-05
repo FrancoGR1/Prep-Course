@@ -29,7 +29,7 @@ function conection(status) {
     console.log ("Online");
   } else if (status = 2) {
       console.log ("Away");
-  } else if (status != 1 && status != 2) {
+  } else if (status = 0 || status > 2) {
           console.log ("Offline");
   }
 }
