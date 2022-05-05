@@ -35,7 +35,7 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
-  If (idioma= aleman) {
+  If (idioma= aleman)
     console.log ("Guten Tag!");
   } if (idioma= mandarin ) {
       console.log ("Ni Hao!");
@@ -44,8 +44,7 @@ function saludo(idioma) {
   } if (idioma!= aleman && idioma != mandarin && idoma != ingles) {
           console.log ("Hola!");
   }
-}
-
+  
 function colors(color) {
   //La función recibe un color. Devolver el string correspondiente:
   //En caso que el color recibido sea "blue", devuleve --> "This is blue"
