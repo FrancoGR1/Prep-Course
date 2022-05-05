@@ -27,11 +27,11 @@ function conection(status) {
   //Devolver el estado de conexión de usuario en cada uno de los casos.
   if (status = 1) {
     console.log ("Online");
-  } else if (status = 2) {
+  } if (status = 2) {
       console.log ("Away");
-  } else if (status = 0) {
+  } if (status = 0) {
           console.log ("Offline");
-  } else if (status > 2) {
+  } if (status > 2) {
             console.log ("Offline");
   }
 }
