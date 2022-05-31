@@ -14,7 +14,7 @@ img {
     border: 5px solid rgb(1, 52, 1);
 }
 
-.spanid {
+#spanid {
     font-size: 18px;
     margin: 50px;
 }
